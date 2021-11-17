@@ -1,0 +1,28 @@
+/* Universal selector */
+/* The universal selector will select elements of any type, hence the name “universal”, and the syntax for it is a simple asterisk */
+
+* {
+  color: purple;
+}
+
+
+/* Type Selector */
+/* A type selector (or element selector) will select all elements of the given element type, and the syntax is just the name of the element */
+
+div {
+  color: white;
+}
+
+/* Class selector */
+/* Class selectors will select all elements with the given class, which is just an attribute you place on an HTML element */
+
+.alert-text {
+  color: orange;
+}
+
+/* ID Selectors
+ID selectors are similar to class selectors. They select an element with the given ID */
+
+#title {
+  background-color: black;
+}

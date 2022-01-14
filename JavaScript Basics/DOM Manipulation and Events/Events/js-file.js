@@ -3,4 +3,5 @@ const btn = document.querySelector('#btn')
 
 // metodo 3
 
-btn.addEventListener('click', () => alert("hello world!") )
+btn.addEventListener('click', () => alert("hello world!")
+ )

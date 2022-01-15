@@ -11,6 +11,12 @@
 //     }
 // }
 
+let winner = '';
+let empate = "Empate!";
+let cpuWin = "Gana la CPU!";
+let userWin = "Gana el User!"
+let cpuScore = 0;
+let userScore = 0;
 
 function computerPlay(){
     let number = Math.floor(Math.random() * 3);
@@ -23,7 +29,9 @@ if(final == 1){
 }else if(final == 3){
     return "Tijera"
 }
+
 }
+
 function playerPlay(){
     let selection = prompt("1, 2 o 3");
     let final;
@@ -36,12 +44,6 @@ function playerPlay(){
     }
     return final
 }
-let winner = '';
-let empate = "Empate!";
-let cpuWin = "Gana la CPU!";
-let userWin = "Gana el User!"
-let cpuScore = 0;
-let userScore = 0;
 
 function playround(){
 
@@ -70,8 +72,6 @@ function playround(){
         return winner
         }
 }
-
-
 
 function game(){
 

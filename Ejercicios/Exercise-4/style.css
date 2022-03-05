@@ -1,0 +1,11 @@
+/* a continuacion se muestra como queda una propiedad chained (.clas.class) */
+
+.human.woman{
+    width: 300px;
+    height: auto;
+}
+
+.human.man{
+    width: 200px;
+    height: 400px;
+}

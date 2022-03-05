@@ -1,0 +1,42 @@
+
+/* Ejercicio 1 */
+div{
+  color:white;
+  background-color:red;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  color:white;
+  background-color: green;
+  font-size: 18px;
+}
+
+/* Ejercicio 2 */
+
+.clase {
+  background-color: darksalmon;
+  color: black;
+  font-family: Verdana, sans-serif;
+}
+
+
+.clase.dos {
+  font-size: 24px;
+}
+
+#numerodos{
+  color: blue;
+  background-color: white;
+  font-size: 36px;
+  text-align: left;
+}
+
+#numerocuatro{
+  color: black;
+  background-color: lightgreen;
+  font-weight: bold; 
+  text-align: left;
+}

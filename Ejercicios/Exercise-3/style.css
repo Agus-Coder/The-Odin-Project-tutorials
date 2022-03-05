@@ -1,0 +1,19 @@
+/* La idea de este ejercicio es entender como aplicar reglas tipo "class" en conjunto y por
+separado, como se muestra a continuacion */
+
+.rightButton,   /* Regla en conjunto */
+.leftButton {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+/* Regla en separado */
+.leftButton{
+    color: white;
+    background-color: black;
+}
+
+.rightButton{
+    color: black;
+    background-color: yellow;
+}
